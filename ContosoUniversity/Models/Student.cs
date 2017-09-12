@@ -11,6 +11,7 @@ namespace ContosoUniversity.Models
         public string FirstMidName { get; set; }
         public DateTime EnrollmentDate { get; set; }
 
+        //  Navigation property
         public ICollection<Enrollment> Ennrollments { get; set; }
     }
 }
